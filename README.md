@@ -1,10 +1,10 @@
 markdown
-# ForesightX
+# Foresight
 
 **Predict Tomorrow, Today.**
 
 ForesightX is a decentralized multi-sector prediction market where users trade on the outcomes of future events across **Business, Crypto, Sports, Technology, and Politics**.  
-By leveraging blockchain technology, ForesightX ensures **fairness, transparency, and tokenized rewards** for accurate predictions.
+By leveraging blockchain technology, Foresight ensures **fairness, transparency, and tokenized rewards** for accurate predictions.
 
 ---
 
@@ -71,7 +71,7 @@ To become the leading global prediction platform that empowers individuals, busi
 ---
 
 ## Team
-ForesightX is built by a team of experts in **blockchain, finance, sports analytics, AI, and political science** with the shared goal of democratizing access to high-quality predictive insights.
+Foresight is built by a team of experts in **blockchain, finance, sports analytics, AI, and political science** with the shared goal of democratizing access to high-quality predictive insights.
 
 ---
 
@@ -79,8 +79,8 @@ ForesightX is built by a team of experts in **blockchain, finance, sports analyt
 - Website: [Coming Soon]  
 - Twitter: [Coming Soon]  
 - Telegram: [Coming Soon]  
-- Email: contact@foresightx.io  
+- Email: contact@foresight.io  
 
 ---
 
-**ForesightX — Predict Tomorrow, Today.**
+**Foresight — Predict Tomorrow, Today.**
