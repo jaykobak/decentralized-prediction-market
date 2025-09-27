@@ -114,7 +114,7 @@ export function MarketCard({ market, onSelect }: MarketCardProps) {
             <div className="text-xs text-muted-foreground">Total Volume</div>
           </div>
           <Button size="sm">
-            {market.status === "resolved" ? "View Results" : "Trade"}
+            {market.status === "resolved" ? "Trade" : "Trade"}
           </Button>
         </div>
       </CardContent>
