@@ -1,9 +1,9 @@
 markdown
-# Foresight
+# FORESIGHT
 
-**Predict Tomorrow, Today.**
+**THE REAL-TIME PREDICTION MARKET**
 
-ForesightX is a decentralized multi-sector prediction market where users trade on the outcomes of future events across **Business, Crypto, Sports, Technology, and Politics**.  
+FORESIGHT is a decentralized multi-sector prediction market where users trade on the outcomes of future events across **Business, Crypto, Sports, Technology, and Politics**.  
 By leveraging blockchain technology, Foresight ensures **fairness, transparency, and tokenized rewards** for accurate predictions.
 
 ---
