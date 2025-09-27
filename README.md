@@ -11,7 +11,7 @@ By leveraging blockchain technology, Foresight ensures **fairness, transparency,
 ---
 
 ## Vision
-To become the leading global prediction platform that empowers individuals, businesses, and institutions with **crowdsourced foresight** to make smarter decisions.
+FORESIGHT aims to become the leading global prediction platform, empowering individuals, businesses, and institutions with crowdsourced foresight to make smarter, data-driven decisions.
 
 ---
 
