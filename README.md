@@ -67,15 +67,8 @@ FORESIGHT aims to become the leading global prediction platform, empowering indi
 
 ---
 
-## Business Model
-- Small fees on market trades.  
-- Premium insights & analytics for businesses, investors, and researchers.  
-- Partnerships with organizations across industries.
-
----
-
 ## Roadmap
-- **Phase 1**: Launch with Crypto & Sports predictions.  
+- **Phase 1**: Launch with  & Sports predictions.  
 - **Phase 2**: Expand to Politics, Technology, and Business.  
 - **Phase 3**: Scale globally with institutional partnerships and advanced analytics.
 
