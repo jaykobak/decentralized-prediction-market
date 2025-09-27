@@ -1,5 +1,7 @@
 <img width="1920" height="1080" alt="Frame" src="https://github.com/user-attachments/assets/06424e06-f145-4baf-8273-17d792d501a7" /><br>
 
+
+
 # FORESIGHT
 
 
@@ -80,7 +82,8 @@ Foresight is built by a team of experts in **blockchain, finance, sports analyti
 ---
 
 ## Links
-- YouTube Video Link: https://youtu.be/5oiKjehJmwE
+- YouTube Video Link: https://youtu.be/wieS6Bn42pg
+- Slide: https://www.figma.com/design/zBlC1iFyG2nfqb73FyfoWX/Pitch-Deck?node-id=0-1&t=FFppjJjM4Oo1LRLF-1
 - Website: https://decentralized-prediction-market-k0egasa7a.vercel.app/
 - Email: contact@foresight.io
 
