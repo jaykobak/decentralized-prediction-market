@@ -10,7 +10,7 @@ By leveraging blockchain technology, Foresight ensures **fairness, transparency,
 
 ---
 
-##The Problem FORESIGHT Solves
+## The Problem FORESIGHT Solves
 
 Most existing prediction markets face two main issues:
 * Decentralized but unusable – Platforms on chains like Ethereum are slow and expensive, making them impractical for everyday users.
