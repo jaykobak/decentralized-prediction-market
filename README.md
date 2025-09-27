@@ -10,8 +10,17 @@ By leveraging blockchain technology, Foresight ensures **fairness, transparency,
 
 ---
 
+## The Problem FORESIGHT Solves
+
+Most existing prediction markets face two main issues:
+* Decentralized but unusable – Platforms on chains like Ethereum are slow and expensive, making them impractical for everyday users.
+* Centralized but unfair – Faster platforms are controlled by central authorities, leading to bias, censorship, and lack of transparency.
+FORESIGHT solves this by combining true decentralization with speed, low fees, and fairness, giving users full control over their predictions across multiple sectors.
+
+---
+
 ## Vision
-To become the leading global prediction platform that empowers individuals, businesses, and institutions with **crowdsourced foresight** to make smarter decisions.
+FORESIGHT aims to become the leading global prediction platform, empowering individuals, businesses, and institutions with crowdsourced foresight to make smarter, data-driven decisions.
 
 ---
 
@@ -34,9 +43,9 @@ To become the leading global prediction platform that empowers individuals, busi
 ---
 
 ## Example Markets
+- *Business:* Will Tesla exceed a $1T market cap again by 2026?
 - *Crypto:* Will Bitcoin reach $100,000 by the end of 2025?  
-- *Business:* Will Tesla exceed a $1T market cap again by 2026?  
-- *Sports:* Will [team] win the Champions League in 2026?  
+- *Sports:* Will Real Madrid win the Champions League in 2026?  
 - *Technology:* Will AGI be achieved before 2030?  
 - *Politics:* Who will win the 2028 U.S. Presidential Election?  
 
@@ -58,15 +67,8 @@ To become the leading global prediction platform that empowers individuals, busi
 
 ---
 
-## Business Model
-- Small fees on market trades.  
-- Premium insights & analytics for businesses, investors, and researchers.  
-- Partnerships with organizations across industries.
-
----
-
 ## Roadmap
-- **Phase 1**: Launch with Crypto & Sports predictions.  
+- **Phase 1**: Launch with  & Sports predictions.  
 - **Phase 2**: Expand to Politics, Technology, and Business.  
 - **Phase 3**: Scale globally with institutional partnerships and advanced analytics.
 
