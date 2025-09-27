@@ -19,12 +19,11 @@ export function Header({ currentView, onViewChange }: HeaderProps) {
         <div className="flex items-center justify-between">
           {/* Logo and Branding */}
           <div className="flex items-center gap-3">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-              <span className="text-white font-semibold text-sm">BD</span>
-            </div>
+            {/* <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+              <span className="text-white font-semibold text-sm">FS</span>
+            </div> */}
             <div>
-              <h1 className="font-semibold text-lg">BlockDAG Predictions</h1>
-              <p className="text-muted-foreground text-sm">Decentralized Prediction Market</p>
+              <h1 className="font-bold text-3xl text-blue-600">FORESIGHT</h1>
             </div>
           </div>
 
