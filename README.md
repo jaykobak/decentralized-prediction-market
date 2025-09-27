@@ -8,12 +8,12 @@ By leveraging blockchain technology, ForesightX ensures **fairness, transparency
 
 ---
 
-## 🌍 Vision
+## Vision
 To become the leading global prediction platform that empowers individuals, businesses, and institutions with **crowdsourced foresight** to make smarter decisions.
 
 ---
 
-## 🚀 Features
+## Features
 - **Multi-Sector Coverage**  
   Predict outcomes in Business, Crypto, Sports, Technology, and Politics.
 
@@ -31,7 +31,7 @@ To become the leading global prediction platform that empowers individuals, busi
 
 ---
 
-## 📊 Example Markets
+## Example Markets
 - *Crypto:* Will Bitcoin reach $100,000 by the end of 2025?  
 - *Business:* Will Tesla exceed a $1T market cap again by 2026?  
 - *Sports:* Will [team] win the Champions League in 2026?  
@@ -40,7 +40,7 @@ To become the leading global prediction platform that empowers individuals, busi
 
 ---
 
-## 💡 How It Works
+## How It Works
 1. **Create a Market** – Users propose questions about future events.  
 2. **Trade Shares** – Others buy YES/NO shares based on their belief.  
 3. **Resolve Outcomes** – When the event concludes, smart contracts verify results.  
@@ -48,7 +48,7 @@ To become the leading global prediction platform that empowers individuals, busi
 
 ---
 
-## 🏆 Competitive Advantage
+## Competitive Advantage
 - Covers **multiple sectors** (not just sports or crypto).  
 - Transparent, decentralized, and reward-driven.  
 - User-friendly dashboard for both retail traders and institutions.  
@@ -56,26 +56,26 @@ To become the leading global prediction platform that empowers individuals, busi
 
 ---
 
-## 💰 Business Model
+## Business Model
 - Small fees on market trades.  
 - Premium insights & analytics for businesses, investors, and researchers.  
 - Partnerships with organizations across industries.
 
 ---
 
-## 🛠️ Roadmap
+## Roadmap
 - **Phase 1**: Launch with Crypto & Sports predictions.  
 - **Phase 2**: Expand to Politics, Technology, and Business.  
 - **Phase 3**: Scale globally with institutional partnerships and advanced analytics.
 
 ---
 
-## 👥 Team
+## Team
 ForesightX is built by a team of experts in **blockchain, finance, sports analytics, AI, and political science** with the shared goal of democratizing access to high-quality predictive insights.
 
 ---
 
-## 📞 Contact
+## Contact
 - Website: [Coming Soon]  
 - Twitter: [Coming Soon]  
 - Telegram: [Coming Soon]  
