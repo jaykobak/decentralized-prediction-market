@@ -79,17 +79,13 @@ Foresight is built by a team of experts in **blockchain, finance, sports analyti
 
 ---
 
-## Contact
-- Website: [Coming Soon]  
-- Twitter: [Coming Soon]  
-- Telegram: [Coming Soon]  
-- Email: contact@foresight.io  
+## Links
+- YouTube Video Link: https://youtu.be/5oiKjehJmwE
+- Website: https://decentralized-prediction-market-k0egasa7a.vercel.app/
+- Email: contact@foresight.io
 
 ---
 
 **Foresight — Predict Tomorrow, Today.**
 
 ---
-
-## The video link to foresight
-https://youtu.be/5oiKjehJmwE
