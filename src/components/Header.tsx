@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Wallet, Home, TrendingUp, User, Plus, Menu } from "lucide-react";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 interface HeaderProps {
   currentView: string;
@@ -99,10 +100,11 @@ export function Header({ currentView, onViewChange }: HeaderProps) {
               <div className="h-2 w-2 rounded-full bg-green-500"></div>
               BlockDAG Network
             </Badge>
-            <Button className="gap-2">
+            {/* <Button className="gap-2">
               <Wallet className="h-4 w-4" />
               <span className="">Connect Wallet</span>
-            </Button>
+            </Button> */}
+            <ConnectButton/>
           </div>
         </div>
       </div>
