@@ -1,4 +1,5 @@
-<img width="1920" height="1080" alt="Frame" src="https://github.com/user-attachments/assets/06424e06-f145-4baf-8273-17d792d501a7" />
+<img width="1920" height="1080" alt="Frame" src="https://github.com/user-attachments/assets/06424e06-f145-4baf-8273-17d792d501a7" /><br>
+
 # FORESIGHT
 
 
