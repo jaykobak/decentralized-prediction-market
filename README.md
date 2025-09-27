@@ -88,3 +88,8 @@ Foresight is built by a team of experts in **blockchain, finance, sports analyti
 ---
 
 **Foresight — Predict Tomorrow, Today.**
+
+---
+
+## The video link to foresight
+https://youtu.be/5oiKjehJmwE
