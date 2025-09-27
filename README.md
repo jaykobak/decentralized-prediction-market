@@ -1,46 +1,86 @@
+markdown
+# ForesightX
 
-  # Decentralized Prediction Market
+**Predict Tomorrow, Today.**
 
-  This is a code bundle for Decentralized Prediction Market. The original project is available at https://www.figma.com/design/h8sC1HK0JjoNcmTN09oEVz/Decentralized-Prediction-Market.
+ForesightX is a decentralized multi-sector prediction market where users trade on the outcomes of future events across **Business, Crypto, Sports, Technology, and Politics**.  
+By leveraging blockchain technology, ForesightX ensures **fairness, transparency, and tokenized rewards** for accurate predictions.
 
-  ## Running the code
+---
 
-  Run `npm i` to install the dependencies.
+## 🌍 Vision
+To become the leading global prediction platform that empowers individuals, businesses, and institutions with **crowdsourced foresight** to make smarter decisions.
 
-  Run `npm run dev` to start the development server.
+---
 
-  ## Introduction
+## 🚀 Features
+- **Multi-Sector Coverage**  
+  Predict outcomes in Business, Crypto, Sports, Technology, and Politics.
 
-  This is a decentralized market prediction platfrom where future can be predicted for a price and if the future comes true the its a big win, else, the outcome will determine that one as it is contant that prediction is of two sides which is win or loss, This platform will make sure you predict responsibly in order to avoid financial crisis 
+- **Create & Trade Markets**  
+  Users can create markets or trade on existing outcomes with simple **YES/NO** shares.
 
-  ## Scope of this project
+- **Transparent & Secure**  
+  Built on blockchain for verifiable, tamper-proof results.
 
-  Is to enable individual to be able to predict what might happen in the nearest future for a prize
+- **Crypto Rewards**  
+  Earn tokens when your predictions are correct.
 
-  ## The problem
+- **Community-Driven Insights**  
+  Harness the wisdom of crowds for more accurate forecasting.
 
-   Market today are often biased, fragmented, or inaccurate.
-   Businesses, investors, sports fans, and citizens lack reliable prediction tools.
-   Traditional betting markets don’t cover broader knowledge sectors.
+---
 
+## 📊 Example Markets
+- *Crypto:* Will Bitcoin reach $100,000 by the end of 2025?  
+- *Business:* Will Tesla exceed a $1T market cap again by 2026?  
+- *Sports:* Will [team] win the Champions League in 2026?  
+- *Technology:* Will AGI be achieved before 2030?  
+- *Politics:* Who will win the 2028 U.S. Presidential Election?  
 
-  ## The solution 
-  **Foresight**: A decentralized multi-sector prediction market.
-  Users trade on future outcomes across **Business, Crypto, Sports, Tech, and Politics** and lots more.
-  Blockchain ensures fairness, transparency, and rewards for accuracy.
+---
 
-  ## Market opportunity 
+## 💡 How It Works
+1. **Create a Market** – Users propose questions about future events.  
+2. **Trade Shares** – Others buy YES/NO shares based on their belief.  
+3. **Resolve Outcomes** – When the event concludes, smart contracts verify results.  
+4. **Get Rewards** – Winning traders earn crypto payouts.
 
-   Prediction markets is equivalent to multi-billion dollar global opportunity.
-   Growing demand for **data-driven insights** in finance, sports, politics, and tech.
-   Foresight sits at the intersection of **crypto, fintech, and crowdsourced intelligence.**  To make prediction easier
+---
 
+## 🏆 Competitive Advantage
+- Covers **multiple sectors** (not just sports or crypto).  
+- Transparent, decentralized, and reward-driven.  
+- User-friendly dashboard for both retail traders and institutions.  
+- Scalable for global adoption.
 
-   ## Roadmap
+---
 
-     **Crypto + Sports predictions** : Predicting sports with local currencies has been one of the most concerning and barrier between international relation in prediction, but with the help of **Foresight** Smooth interactions will be presents amongst nation and enhance international prediction
-     Expand to Politics, Tech, Business: Expanding to politics, tech and businesses, Foresight will also help in predicting what will happen in a nation's election easily without have to leave the comfort of your house and in predicting about technologies and businesses across the globe
-     Institutional adoption & global scaling.
+## 💰 Business Model
+- Small fees on market trades.  
+- Premium insights & analytics for businesses, investors, and researchers.  
+- Partnerships with organizations across industries.
 
+---
 
-  
+## 🛠️ Roadmap
+- **Phase 1**: Launch with Crypto & Sports predictions.  
+- **Phase 2**: Expand to Politics, Technology, and Business.  
+- **Phase 3**: Scale globally with institutional partnerships and advanced analytics.
+
+---
+
+## 👥 Team
+ForesightX is built by a team of experts in **blockchain, finance, sports analytics, AI, and political science** with the shared goal of democratizing access to high-quality predictive insights.
+
+---
+
+## 📞 Contact
+- Website: [Coming Soon]  
+- Twitter: [Coming Soon]  
+- Telegram: [Coming Soon]  
+- Email: contact@foresightx.io  
+
+---
+
+**ForesightX — Predict Tomorrow, Today.**
