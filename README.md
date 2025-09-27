@@ -43,9 +43,9 @@ FORESIGHT aims to become the leading global prediction platform, empowering indi
 ---
 
 ## Example Markets
+- *Business:* Will Tesla exceed a $1T market cap again by 2026?
 - *Crypto:* Will Bitcoin reach $100,000 by the end of 2025?  
-- *Business:* Will Tesla exceed a $1T market cap again by 2026?  
-- *Sports:* Will [team] win the Champions League in 2026?  
+- *Sports:* Will Real Madrid win the Champions League in 2026?  
 - *Technology:* Will AGI be achieved before 2030?  
 - *Politics:* Who will win the 2028 U.S. Presidential Election?  
 
