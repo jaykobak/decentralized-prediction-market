@@ -10,6 +10,7 @@ import {
   optimism,
   arbitrum,
   base,
+  sepolia,
 } from 'wagmi/chains';
 import {
   QueryClientProvider,
@@ -19,8 +20,8 @@ import InitApp from './initApp.tsx';
 
 const config = getDefaultConfig({
   appName: "Decentralized Prediction Market",
-  projectId: 'YOUR_PROJECT_ID',
-  chains: [mainnet, polygon, optimism, arbitrum, base],
+  projectId: import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || 'YOUR_PROJECT_ID',
+  chains: [sepolia, mainnet, polygon, optimism, arbitrum, base],
   // ssr: true, // If your dApp uses server side rendering (SSR)
 });
 
