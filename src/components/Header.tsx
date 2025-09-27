@@ -4,6 +4,7 @@ import { Badge } from "./ui/badge";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Wallet, Home, TrendingUp, User, Plus, Menu } from "lucide-react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { useChainId } from "wagmi";
 
 interface HeaderProps {
   currentView: string;
@@ -12,6 +13,18 @@ interface HeaderProps {
 
 export function Header({ currentView, onViewChange }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const chainId = useChainId();
+
+  const getNetworkName = (chainId: number) => {
+    switch (chainId) {
+      case 11155111:
+        return "Sepolia Testnet";
+      case 1:
+        return "Ethereum Mainnet";
+      default:
+        return "Unknown Network";
+    }
+  };
 
   return (
     <header className="border-b bg-card/50 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -95,14 +108,10 @@ export function Header({ currentView, onViewChange }: HeaderProps) {
 
           {/* Wallet Connection */}
           <div className="flex items-center gap-3">
-            <Badge variant="secondary" className="hidden gap-2">
+            <Badge variant="secondary" className="hidden sm:flex gap-2">
               <div className="h-2 w-2 rounded-full bg-green-500"></div>
-              BlockDAG Network
+              {getNetworkName(chainId)}
             </Badge>
-            {/* <Button className="gap-2">
-              <Wallet className="h-4 w-4" />
-              <span className="">Connect Wallet</span>
-            </Button> */}
             <ConnectButton/>
           </div>
         </div>

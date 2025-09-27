@@ -1,12 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Progress } from "./ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { ArrowLeft, TrendingUp, TrendingDown, Clock, Users, Activity, DollarSign } from "lucide-react";
+import { ArrowLeft, TrendingUp, TrendingDown, Clock, Users, Activity, DollarSign, Wallet } from "lucide-react";
 import { Market } from "./MarketCard";
+import { usePredictionMarket, useBuyShares } from "../hooks/useContract";
+import { useAccount } from "wagmi";
+import { toast } from "sonner";
 
 interface MarketDetailProps {
   market: Market;
@@ -17,6 +20,22 @@ export function MarketDetail({ market, onBack }: MarketDetailProps) {
   const [selectedOutcome, setSelectedOutcome] = useState<"yes" | "no">("yes");
   const [amount, setAmount] = useState("");
   const [shares, setShares] = useState("");
+  const [isApprovalNeeded, setIsApprovalNeeded] = useState(false);
+
+  const { isConnected } = useAccount();
+  const {
+    bdagBalance,
+    allowance,
+    approve,
+    isApproving,
+    userAddress,
+  } = usePredictionMarket();
+
+  const { buyShares, isLoading: isBuying, isSuccess, error } = useBuyShares(
+    market.id,
+    selectedOutcome === "yes",
+    amount
+  );
 
   const totalShares = market.yesShares + market.noShares;
   const yesPercentage = totalShares > 0 ? (market.yesShares / totalShares) * 100 : 50;
@@ -24,6 +43,32 @@ export function MarketDetail({ market, onBack }: MarketDetailProps) {
 
   const currentPrice = selectedOutcome === "yes" ? market.yesPrice : market.noPrice;
   const estimatedShares = amount ? (parseFloat(amount) / currentPrice).toFixed(2) : "0";
+
+  // Check if approval is needed when amount changes
+  useEffect(() => {
+    if (amount && parseFloat(amount) > 0) {
+      const needsApproval = parseFloat(allowance) < parseFloat(amount);
+      setIsApprovalNeeded(needsApproval);
+    } else {
+      setIsApprovalNeeded(false);
+    }
+  }, [amount, allowance]);
+
+  // Handle successful transaction
+  useEffect(() => {
+    if (isSuccess) {
+      toast.success("Prediction placed successfully!");
+      setAmount("");
+      setShares("");
+    }
+  }, [isSuccess]);
+
+  // Handle transaction errors
+  useEffect(() => {
+    if (error) {
+      toast.error("Transaction failed. Please try again.");
+    }
+  }, [error]);
 
   const handleAmountChange = (value: string) => {
     setAmount(value);
@@ -43,6 +88,56 @@ export function MarketDetail({ market, onBack }: MarketDetailProps) {
     } else {
       setAmount("");
     }
+  };
+
+  const handleApprove = async () => {
+    if (approve) {
+      try {
+        await approve();
+        toast.success("Approval transaction submitted!");
+      } catch (err) {
+        toast.error("Approval failed. Please try again.");
+      }
+    }
+  };
+
+  const handleBuyShares = async () => {
+    if (!isConnected) {
+      toast.error("Please connect your wallet first");
+      return;
+    }
+
+    if (!amount || parseFloat(amount) <= 0) {
+      toast.error("Please enter a valid amount");
+      return;
+    }
+
+    if (parseFloat(amount) > parseFloat(bdagBalance)) {
+      toast.error("Insufficient BDAG balance");
+      return;
+    }
+
+    if (buyShares) {
+      try {
+        await buyShares();
+        toast.success("Transaction submitted! Waiting for confirmation...");
+      } catch (err) {
+        toast.error("Transaction failed. Please try again.");
+      }
+    }
+  };
+
+  const getButtonText = () => {
+    if (!isConnected) return "Connect Wallet";
+    if (isApprovalNeeded) return isApproving ? "Approving..." : "Approve BDAG";
+    if (isBuying) return "Placing Prediction...";
+    return "Place Prediction";
+  };
+
+  const isButtonDisabled = () => {
+    if (!isConnected) return false;
+    if (isApprovalNeeded) return isApproving;
+    return !amount || parseFloat(amount) <= 0 || isBuying || parseFloat(amount) > parseFloat(bdagBalance);
   };
 
   // Mock trading history data
@@ -205,7 +300,14 @@ export function MarketDetail({ market, onBack }: MarketDetailProps) {
 
               {/* Amount Input */}
               <div>
-                <label htmlFor="amount" className="block text-sm font-medium mb-2">Amount (BDAG)</label>
+                <div className="flex justify-between items-center mb-2">
+                  <label htmlFor="amount" className="block text-sm font-medium">Amount (BDAG)</label>
+                  {isConnected && (
+                    <span className="text-xs text-muted-foreground">
+                      Balance: {parseFloat(bdagBalance).toFixed(2)} BDAG
+                    </span>
+                  )}
+                </div>
                 <Input
                   id="amount"
                   type="number"
@@ -251,8 +353,13 @@ export function MarketDetail({ market, onBack }: MarketDetailProps) {
                 </div>
               )}
 
-              <Button className="w-full" disabled={!amount || parseFloat(amount) <= 0}>
-                Place Prediction
+              <Button
+                className="w-full"
+                disabled={isButtonDisabled()}
+                onClick={isApprovalNeeded ? handleApprove : handleBuyShares}
+              >
+                {!isConnected && <Wallet className="h-4 w-4 mr-2" />}
+                {getButtonText()}
               </Button>
 
               <p className="text-xs text-muted-foreground text-center">
