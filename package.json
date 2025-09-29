@@ -1,5 +1,5 @@
 {
-      "name": "Decentralized Prediction Market",
+      "name": "decentralized-prediction-market",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -32,7 +32,7 @@
             "@rainbow-me/rainbowkit": "^2.2.8",
             "@tanstack/react-query": "^5.90.2",
             "class-variance-authority": "^0.7.1",
-            "clsx": "*",
+            "clsx": "^2.1.1",
             "cmdk": "^1.1.1",
             "embla-carousel-react": "^8.6.0",
             "input-otp": "^1.4.2",
@@ -45,7 +45,7 @@
             "react-resizable-panels": "^2.1.7",
             "recharts": "^2.15.2",
             "sonner": "^2.0.3",
-            "tailwind-merge": "*",
+            "tailwind-merge": "^2.5.2",
             "vaul": "^1.1.2",
             "viem": "^2.37.8",
             "wagmi": "^2.17.5"
@@ -65,7 +65,6 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build",
-            "preview": "vite preview",
-            "postinstall": "chmod +x node_modules/.bin/vite"
-      },
+            "preview": "vite preview"
+      }
 }
